@@ -65,29 +65,29 @@ specified by the set of pointcuts defined by the cross cutting concern.
 _________________________________________________________________________________________________________________________________________________________________
 Following are various methods of Object class −
 
-protected Object clone() - Used to create and return a copy of this object
-boolean equals(Object obj) - Used to indicate whether some other object is "equal to" this one
-protected void finalize() - garbage collector calls this method on an object when it determines that there are no more references to the object
-Class<?> getClass() - Used to get the runtime class of this Object
-int hashCode() - Used to get a hash code value for the object
-void notify() - Used to wake up a single thread that is waiting on this object's monitor
-void notifyAll() - Used to wake up all threads that are waiting on this object's monitor
-String toString() - Used to get a string representation of the object
-void wait() - marks the current thread to wait until another thread invokes the notify() method or the notifyAll() method for this object
-void wait(long timeout) - marks the current thread to wait until either another thread invokes the notify() method or the notifyAll() 
-                          method for this object, or a specified amount of time has elapsed.
-void wait(long timeout, int nanos) - marks the current thread to wait until another thread invokes the notify() method or the notifyAll() method for this object,
-                                     or some other thread interrupts the current thread, or a certain amount of real time has elapsed.
+protected Object clone() - Used to create and return a copy of this object <br />
+boolean equals(Object obj) - Used to indicate whether some other object is "equal to" this one <br />
+protected void finalize() - garbage collector calls this method on an object when it determines that there are no more references to the object <br />
+Class<?> getClass() - Used to get the runtime class of this Object <br />
+int hashCode() - Used to get a hash code value for the object <br />
+void notify() - Used to wake up a single thread that is waiting on this object's monitor <br />
+void notifyAll() - Used to wake up all threads that are waiting on this object's monitor <br />
+String toString() - Used to get a string representation of the object <br />
+void wait() - marks the current thread to wait until another thread invokes the notify() method or the notifyAll() method for this object <br />
+void wait(long timeout) - marks the current thread to wait until either another thread invokes the notify() method or the notifyAll()  <br />
+                          method for this object, or a specified amount of time has elapsed. <br />
+void wait(long timeout, int nanos) - marks the current thread to wait until another thread invokes the notify() method or the notifyAll() method for this object, <br />
+                                     or some other thread interrupts the current thread, or a certain amount of real time has elapsed. <br />
 _________________________________________________________________________________________________________________________________________________________________________________
 'Regular Expression'
 
-^	The beginning of a line
-$	The end of a line
-\b	A word boundary (where a word starts or ends, e.g. space, tab etc.)
-\B	A non-word boundary
-\A	The beginning of the input
-\G	The end of the previous match
-\Z	The end of the input but for the final terminator (if any)
+^	The beginning of a line. <br/>
+$	The end of a line. <br/>
+\b	A word boundary (where a word starts or ends, e.g. space, tab etc.) <br />
+\B	A non-word boundary. <br/>
+\A	The beginning of the input. <br/>
+\G	The end of the previous match <br/>
+\Z	The end of the input but for the final terminator (if any). <br/>
 \z	
 _________________________________________________________________________________________________________________________________________________________________
 https://www.buggybread.com/2014/09/java-interview-questions-and-answers-on_59.html
