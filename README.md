@@ -17,7 +17,7 @@ ________________________________________________________________________________
 Calendar cal = Calendar.getInstance();
         cal.set(month, day, year);
         int ans = cal.get(Calendar.DAY_OF_WEEK);
-------------------------------------------------------------------------------------------------------------
+________________________________________________________________________________________________________________
 To format date and time:
 DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");  
     
@@ -33,8 +33,9 @@ ________________________________________________________________________________
 https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/autoconfigure/web/servlet/WebMvcTest.html
 
 https://www.javatpoint.com/spring-boot-actuator
-
-The Spring Framework provides you with some special annotations. These annotations are used to create Spring beans automatically in the application context. The main stereotype annotation is @Component.
+____________________________________________________________________________________________________________________________________
+The Spring Framework provides you with some special annotations. These annotations are used to create Spring beans automatically in the application context. 
+The main stereotype annotation is @Component.
 There are some Stereotype meta-annotations which is derived from @Component those are
 @Service: Used to create Spring beans at the Service layer,
 @Repository: Which is used to create Spring beans for the repositories at the DAO layer, and
@@ -44,12 +45,9 @@ https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch04s04.htm
 
 REST (Representational State Transfer)
  
-https://teletype.in/@andrewgolovko/lazy-and-eager-instantiation - Singleton Beans are eagerly instantiated
-																	Prototype Beans are lazily instantiated by default
-																	however, if Singleton Bean has a dependency on Prototype Bean, 
-																	then Prototype Bean Instance will be created eagerly 
-																	to satisfy dependencies for Singleton Bean
-																	
+https://teletype.in/@andrewgolovko/lazy-and-eager-instantiation - Singleton Beans are eagerly instantiated									Prototype Beans are lazily instantiated by default however, if Singleton Bean has a dependency on Prototype Bean, 
+then Prototype Bean Instance will be created eagerly to satisfy dependencies for Singleton Bean
+____________________________________________________________________________________________________________________________																	
 @PropertySource("classpath:/com/${my.placeholder:default/path}/app.properties")
 
 Advice is associated with point-cuts.
@@ -61,7 +59,7 @@ Spring uses proxy objects to implement the method invocation interception part o
 Such proxy objects wrap the original Spring bean and intercepts method invocations as 
 specified by the set of pointcuts defined by the cross cutting concern.
 
-________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________
 Following are various methods of Object class −
 
 protected Object clone() - Used to create and return a copy of this object.
@@ -88,12 +86,15 @@ ________________________________________________________________________________
 https://www.buggybread.com/2014/09/java-interview-questions-and-answers-on_59.html
 ________________________________________________________________________________________________________________________________________________________________________________
 `Big Decimal`
+
 The BigDecimal class provides operations on double numbers for arithmetic, scale handling, rounding, comparison, format conversion and hashing.
 It can handle very large and very small floating point numbers with great precision but compensating with the time complexity a bit.
 A BigDecimal consists of a random precision integer unscaled value and a 32-bit integer scale. 
-If greater than or equal to zero, the scale is the number of digits to the right of the decimal point. If less than zero, the unscaled value of the number is multiplied by 10^(-scale).
-__________________________________________________________________________________________________________________________________________________________________________________________________
+If greater than or equal to zero, the scale is the number of digits to the right of the decimal point. If less than zero, 
+the unscaled value of the number is multiplied by 10^(-scale).
+________________________________________________________________________________________________________________________________________________________________________________
 `Big Integer`
+
 certainty factor - 1,0,-1
 
 isProbablePrime(int certainty) method is used to tell if this BigInteger is probably prime or if it’s definitely composite.
@@ -118,12 +119,12 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________________________________________________________________
 `Java annotation` can be used to define the metadata of a Java class or class element. We can use Java annotation at the compile time to instruct the compiler about the build process. 
 Annotation is also used at runtime to get insight into the properties of class elements.
-______________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 `Covariant Return Types`Java allows for Covariant Return Types, which means you can vary your return type as long you are returning a subclass of your specified return type.
-_________________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 `Varargs` The three dots (...) are used in a function’s declaration as a parameter.
 These dots allow zero to multiple arguments to be passed when the function is called. The three dots are also known as var args.
-_________________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 The heap is created when the JVM starts up and may increase or decrease in size while the application runs.
 ____________________________________________________________________________________________________________________________________________________________________
 Static variable gets memory only once in the class area at the time of class loading. Using a static variable makes your program more memory efficient (it saves memory). Static variable belongs to the class rather than the object.
