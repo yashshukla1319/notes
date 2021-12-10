@@ -33,7 +33,7 @@ https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/tes
 
 https://www.javatpoint.com/spring-boot-actuator
 _________________________________________________________________________________________________________________________________________________________________________
-'stereotype annotations'
+`stereotype annotations`
 
 The Spring Framework provides you with some special annotations. These annotations are used to create Spring beans automatically in the application context. 
 The main stereotype annotation is @Component.
@@ -44,7 +44,7 @@ There are some Stereotype meta-annotations which is derived from @Component thos
 
 https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch04s04.html
 _________________________________________________________________________________________________________________________________________________________________________
-'REST' (Representational State Transfer)
+`REST` (Representational State Transfer)
  
 https://teletype.in/@andrewgolovko/lazy-and-eager-instantiation - 
 Singleton Beans are eagerly instantiated
@@ -57,7 +57,7 @@ Advice is associated with point-cuts.
 Advice contains certain task that is to be performed when a point-cut is found. 
 It defines the crosscutting behavior at join points - Types: after, before, around
 ________________________________________________________________________________________________________________________________________________________________
-'AOP'
+`AOP`
 for AOP - https://mossgreen.github.io/Spring-Certification-Spring-AOP/
 Spring uses proxy objects to implement the method invocation interception part of AOP. 
 Such proxy objects wrap the original Spring bean and intercepts method invocations as 
@@ -79,7 +79,7 @@ void wait(long timeout) - marks the current thread to wait until either another 
 void wait(long timeout, int nanos) - marks the current thread to wait until another thread invokes the notify() method or the notifyAll() method for this object, <br />
                                      or some other thread interrupts the current thread, or a certain amount of real time has elapsed. <br />
 _________________________________________________________________________________________________________________________________________________________________________________
-'Regular Expression'
+`Regular Expression`
 
 ^	The beginning of a line. <br/>
 $	The end of a line. <br/>
@@ -143,7 +143,7 @@ ________________________________________________________________________________
 Connecting a method call to the method body is known as binding.
 In case of the static binding, the type of the object is determined at compile-time whereas, in the dynamic binding, the type of the object is determined at runtime.
 ________________________________________________________________________________________________________________________________________________________________________________
-'Concurrent HashMap<>'
-In ConcurrentHashMap, at a time any number of threads can perform retrieval operation but for updated in the object, the thread must lock the particular segment in which the thread wants to operate. This type of locking mechanism is known as Segment locking or bucket locking. Hence at a time, 16 update operations can be performed by threads.
+`Concurrent HashMap<>`
+In ConcurrentHashMap, at a time any number of threads can perform retrieval operation but for updated in the object, the thread must lock the particular segment in which the thread wants to operate. This type of locking mechanism is known as **Segment locking or bucket locking**. Hence at a time, 16 update operations can be performed by threads.
 Inserting null objects is not possible in ConcurrentHashMap as a key or value.
 _________________________________________________________________________________________________________________________________________________________________________________
