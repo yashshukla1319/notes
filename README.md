@@ -142,4 +142,8 @@ Static variable belongs to the class rather than the object.
 _________________________________________________________________________________________________________________________________________________________________________________
 Connecting a method call to the method body is known as binding.
 In case of the static binding, the type of the object is determined at compile-time whereas, in the dynamic binding, the type of the object is determined at runtime.
-_____________________________________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________________________________________________
+"Concurrent HashMap<>"
+In ConcurrentHashMap, at a time any number of threads can perform retrieval operation but for updated in the object, the thread must lock the particular segment in which the thread wants to operate. This type of locking mechanism is known as Segment locking or bucket locking. Hence at a time, 16 update operations can be performed by threads.
+Inserting null objects is not possible in ConcurrentHashMap as a key or value.
+_________________________________________________________________________________________________________________________________________________________________________________
