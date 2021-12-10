@@ -59,6 +59,7 @@ It defines the crosscutting behavior at join points - Types: after, before, arou
 ________________________________________________________________________________________________________________________________________________________________
 `AOP`
 for AOP - https://mossgreen.github.io/Spring-Certification-Spring-AOP/
+Aspect-Oriented Programming (AOP) complements Object-Oriented Programming (OOP) by providing another way of thinking about program structure. The key unit of modularity in OOP is the class, whereas in AOP the unit of modularity is the aspect. Aspects enable the modularization of concerns such as transaction management that cut across multiple types and objects. (Such concerns are often termed crosscutting concerns in AOP literature.)<br/>
 Spring uses proxy objects to implement the method invocation interception part of AOP. 
 Such proxy objects wrap the original Spring bean and intercepts method invocations as 
 specified by the set of pointcuts defined by the cross cutting concern.
