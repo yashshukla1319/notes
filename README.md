@@ -4,29 +4,30 @@
 
 NumberFormat use .getCurrencyInstance(Local.US) and not 
                  .getNumberInstance(Local.US) if want to display currency in format with symbol like$.<br/>
-
+<hr>
 <br/>
 Calendar cal = Calendar.getInstance();<br/>
         cal.set(month, day, year);<br/>
         int ans = cal.get(Calendar.DAY_OF_WEEK);<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+
+<hr>
 <br/>
 To format date and time:<br/>
 DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
 String formattedDate = myDateObj.format(myFormatObj);<br/> 
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `substring`<br/>
 substring (start,end) - output: start,end-1
 substr = str.substring(7, 17);<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 pls remember even if the values are same then too stringbuffer are not equal.
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/autoconfigure/web/servlet/WebMvcTest.html
 https://www.javatpoint.com/spring-boot-actuator
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `stereotype annotations`<br/>
 The Spring Framework provides you with some special annotations. These annotations are used to create Spring beans automatically
@@ -37,20 +38,20 @@ There are some Stereotype meta-annotations which is derived from @Component thos
 **@Repository**: Which is used to create Spring beans for the repositories at the DAO layer, and
 **@Controller**: Which is used to create Spring beans at the controller layer.<br/>
 https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch04s04.html<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `REST` (Representational State Transfer)<br/>
 https://teletype.in/@andrewgolovko/lazy-and-eager-instantiation - 
 Singleton Beans are eagerly instantiated
 Prototype Beans are lazily instantiated by default however, if Singleton Bean has a dependency on Prototype Bean, 
 then Prototype Bean Instance will be created eagerly to satisfy dependencies for Singleton Bean<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 @PropertySource("classpath:/com/${my.placeholder:default/path}/app.properties")
 Advice is associated with point-cuts.
 Advice contains certain task that is to be performed when a point-cut is found. 
 It defines the crosscutting behavior at join points - Types: after, before, around<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `AOP`<br/>
 for AOP - https://mossgreen.github.io/Spring-Certification-Spring-AOP/
@@ -58,7 +59,7 @@ Aspect-Oriented Programming (AOP) complements Object-Oriented Programming (OOP) 
 Spring uses proxy objects to implement the method invocation interception part of AOP. 
 Such proxy objects wrap the original Spring bean and intercepts method invocations as 
 specified by the set of pointcuts defined by the cross cutting concern.<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 Following are various methods of Object class −
 
 - protected Object clone() - Used to create and return a copy of this object. <br />
@@ -94,7 +95,7 @@ It can handle very large and very small floating point numbers with great precis
 A BigDecimal consists of a random precision integer unscaled value and a 32-bit integer scale. 
 If greater than or equal to zero, the scale is the number of digits to the right of the decimal point. If less than zero, 
 the unscaled value of the number is multiplied by 10^(-scale).<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `Big Integer`<br/>
 certainty factor - 1,0,-1
@@ -104,22 +105,22 @@ It returns true if this BigInteger is probably prime, false if it’s definitely
 If certainty is <= 0, true is returned.
 /*  obj.add(obj)
     obj.multiply(obj) methods of BigInteger */<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `instanceof`<br/>
 The java instanceof operator is used to test whether the object is an instance of the specified type (class or subclass or interface).
 The instanceof in java is also known as type comparison operator because it compares the instance with type. 
 It returns either true or false.<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `JAVA reflection`<br/> 
 It is a very powerful tool to inspect the attributes of a class in runtime.
 For example, we can retrieve the list of public fields of a class using getDeclaredMethods().<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `Comaprable Sort` Refer this example to see how compareto method is override and used to compare elements of 
 List<Student>.<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 `object.cardinality` Method in Bitset class which returns Returns the number of bits set to true in this BitSet.<br/>
 _________________________________________________________________________________________________________________________________________________________________________________
 <br/>
