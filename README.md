@@ -4,7 +4,9 @@
 _________________________________________________________________________________________________________________________________________________________________________________
 NumberFormat use .getCurrencyInstance(Local.US) and not 
                  .getNumberInstance(Local.US) if want to display currency in format with symbol like$.<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+                 
+<hr style="border:2px solid gray"> </hr>
+
 Calendar cal = Calendar.getInstance();<br/>
         cal.set(month, day, year);<br/>
         int ans = cal.get(Calendar.DAY_OF_WEEK);<br/>
