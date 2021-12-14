@@ -1,7 +1,7 @@
 # notes
 
 ## hackerrank
-_________________________________________________________________________________________________________________________________________________________________________________
+
 NumberFormat use .getCurrencyInstance(Local.US) and not 
                  .getNumberInstance(Local.US) if want to display currency in format with symbol like$.<br/>
 
