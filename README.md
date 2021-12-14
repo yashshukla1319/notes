@@ -5,14 +5,17 @@ ________________________________________________________________________________
 NumberFormat use .getCurrencyInstance(Local.US) and not 
                  .getNumberInstance(Local.US) if want to display currency in format with symbol like$.<br/>
 _________________________________________________________________________________________________________________________________________________________________________________
+<br/>
 Calendar cal = Calendar.getInstance();<br/>
         cal.set(month, day, year);<br/>
         int ans = cal.get(Calendar.DAY_OF_WEEK);<br/>
 _________________________________________________________________________________________________________________________________________________________________________________
+<br/>
 To format date and time:<br/>
 DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
 String formattedDate = myDateObj.format(myFormatObj);<br/> 
 _________________________________________________________________________________________________________________________________________________________________________________
+<br/>
 `substring`<br/>
 substring (start,end) - output: start,end-1
 substr = str.substring(7, 17);<br/>
