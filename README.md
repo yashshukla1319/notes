@@ -75,7 +75,7 @@ Following are various methods of Object class −
                           method for this object, or a specified amount of time has elapsed. <br />
 - void wait(long timeout, int nanos) - marks the current thread to wait until another thread invokes the notify() method or the notifyAll() method for this object, <br />
                                      or some other thread interrupts the current thread, or a certain amount of real time has elapsed. <br />
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `Regular Expression`<br/>
 - ^	The beginning of a line. <br/>
@@ -85,9 +85,9 @@ ________________________________________________________________________________
 - \A	The beginning of the input. <br/>
 - \G	The end of the previous match <br/>
 - \Z	The end of the input but for the final terminator (if any). <br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 https://www.buggybread.com/2014/09/java-interview-questions-and-answers-on_59.html
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `Big Decimal`<br/>
 The BigDecimal class provides operations on double numbers for arithmetic, scale handling, rounding, comparison, format conversion and hashing.
@@ -122,38 +122,38 @@ For example, we can retrieve the list of public fields of a class using getDecla
 List<Student>.<br/>
 <hr>
 `object.cardinality` Method in Bitset class which returns Returns the number of bits set to true in this BitSet.<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `Java annotation`<br/> 
 It is used to define the metadata of a Java class or class element. We can use Java annotation at the compile time to instruct the compiler about the build process. 
 Annotation is also used at runtime to get insight into the properties of class elements.<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `Covariant Return Types`<br/>
 Java allows for Covariant Return Types, which means you can vary your return type as long you are returning a subclass of your specified return type.<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `Varargs`<br/> 
 The three dots (...) are used in a function’s declaration as a parameter.
 These dots allow zero to multiple arguments to be passed when the function is called. The three dots are also known as var args.<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 The heap is created when the JVM starts up and may increase or decrease in size while the application runs.<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 Static variable gets memory only once in the class area at the time of class loading. Using a static variable makes your program more memory efficient 
 (it saves memory).
 Static variable belongs to the class rather than the object.<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 Connecting a method call to the method body is known as binding.
 In case of the static binding, the type of the object is determined at compile-time whereas, in the dynamic binding, the type of the object is determined 
 at runtime.<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
 <br/>
 `Concurrent HashMap<>`<br/>
 In ConcurrentHashMap, at a time any number of threads can perform retrieval operation but for updated in the object, the thread must lock the 
 particular segment in which the thread wants to operate. This type of locking mechanism is known as **Segment locking or bucket locking**. 
 Hence at a time, 16 update operations can be performed by threads.
 Inserting null objects is not possible in ConcurrentHashMap as a key or value.<br/>
-_________________________________________________________________________________________________________________________________________________________________________________
+<hr>
