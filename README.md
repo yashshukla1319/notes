@@ -135,3 +135,9 @@ particular segment in which the thread wants to operate. This type of locking me
 Hence at a time, 16 update operations can be performed by threads.
 Inserting null objects is not possible in ConcurrentHashMap as a key or value.<br/>
 <hr>
+
+# Quarkus
+ 
+When not able to get response body when the status is 400 this might help.
+ 
+https://stackoverflow.com/questions/67278358/quarkus-microprofile-rest-client-how-to-handle-errors-differently
